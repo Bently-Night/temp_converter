@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script> 
+</head>
+<body>
+    <form>
+        <h1>temprature converter</h1>
+        <input type="number" id="textbox" value="0" max="99"><br>
+
+        <input type="radio" id="toFaren" name="unit">
+        <label for="toFaren">celcius ➡ fahrenheit</label><br>
+
+        <input type="radio" id="toCelcius" name="unit">
+        <label for="toCelcius"> fahrenheit ➡ celcius </label>
+
+        <button type="button" onclick="convert()">convert</button>
+
+        <p id="result"></p>
+    </form>
+
+</body>
+</html>
