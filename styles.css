@@ -26,7 +26,13 @@ form{
     margin-bottom: 10px;
 
 }
+#textbox:active{
+    border: 1px solid blue;
+}
 
+#textbox:hover{
+    border: 1px solid blue;
+}
 label{
     font-size: 1.5em;
     font-weight: bold;
